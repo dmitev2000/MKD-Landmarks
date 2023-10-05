@@ -1,3 +1,4 @@
+import IntroFooterElement from "./IntroFooterElement";
 import "./UI.css";
 
 const Intro = () => {
@@ -12,18 +13,9 @@ const Intro = () => {
         an authentic and awe-inspiring outdoor experience.
       </div>
       <div className="intro-footer">
-        <div>
-          <span className="intro-footer-caption">Capital</span>
-          <span className="intro-footer-text">Skopje</span>
-        </div>
-        <div>
-          <span className="intro-footer-caption">Population</span>
-          <span className="intro-footer-text">2.065 million</span>
-        </div>
-        <div>
-          <span className="intro-footer-caption">Language</span>
-          <span className="intro-footer-text">Macedonian</span>
-        </div>
+        <IntroFooterElement caption="Capital" text="Skopje" />
+        <IntroFooterElement caption="Population" text="2.065 million" />
+        <IntroFooterElement caption="Language" text="Macedonian" />
       </div>
     </div>
   );
