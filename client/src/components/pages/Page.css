@@ -1,0 +1,30 @@
+.home-page {
+  padding: 100px 40px 25px 40px;
+  position: absolute;
+  background-image: url("../../assets/cover.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -10;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.page {
+  padding: 100px 40px 25px 40px;
+  position: absolute;
+  background-image: url("../../assets/cover.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -10;
+}

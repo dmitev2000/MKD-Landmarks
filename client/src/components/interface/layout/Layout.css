@@ -1,0 +1,68 @@
+nav {
+  border-bottom: solid 0.5px lightgray;
+  height: 70px;
+  margin: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 20;
+}
+
+.nav-logo {
+  position: relative;
+  font-size: 30px;
+  font-weight: bold;
+  color: gold;
+}
+
+.nav-logo::before {
+  content: "MK";
+  font-size: 15px;
+  color: red;
+  position: absolute;
+  top: 0;
+  right: -20px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 50px;
+  margin: 0;
+  padding-left: 0;
+  height: 100%;
+}
+
+nav ul li {
+  height: 100%;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 150px;
+  height: 100%;
+}
+
+.nav-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.nav-link-active {
+  border-bottom: solid 2px white;
+  font-weight: bold;
+}
+
+.nav-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 25px;
+}
